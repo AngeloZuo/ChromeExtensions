@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Comparison Extension</title>
+        <script src="library/jquery-3.2.1.min.js"></script>
+        <script src="newPageCompare.js"></script>
+        <style type="text/css">
+            html, body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .dashboard {
+                position: absolute;
+                width: 400px;
+                box-shadow: 0 0 15px 2px lightgrey;
+                padding: 10px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dashboard" draggable>
+            <label title="Please input URL or the whole path of the origin file">Origin URL/Path: </label>
+            <input id="originFile" type="text" />
+            <br>
+            <label title="Please input URL or the whole path of your file">Your URL/Path: </label>
+            <input id="yourFile" type="text" />
+
+            <fieldset>
+                <legend>Position:</legend>
+                top:<br>
+                <input id="yourFileTop" type="number" name="top" value="0"> px<br>
+                left:<br>
+                <input id="yourFileLeft" type="number" name="left" value="0"> px<br>
+            </fieldset>
+        </div>
+        <div class="comparisonPanel">
+
+            <div id="originFileContainer"></div>
+            <div id="yourFileContainer"></div>
+        </div>
+    </body>
+</html>
