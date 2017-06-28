@@ -14,7 +14,7 @@ var pdfStatus = {},
 function renderPage(containerId, num) {
     var canvas = $("#" + containerId + " canvas").get(0),
         ctx = canvas.getContext('2d');
-
+        
     pageRendering = true;
     // Using promise to fetch the page
     pdfStatus[containerId].pdfDoc.getPage(num).then(function(page) {
