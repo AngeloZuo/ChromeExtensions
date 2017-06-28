@@ -9,7 +9,10 @@ function addListeners() {
 	});
 
 	$("#originFile").on("change", function() {
-		addEmebed("#originFileContainer", this.value);
+		// addEmebed("#originFileContainer", this.value);
+		PDFJS.getDocument(this.value).then(function(pdf) {
+			console.log(pdf);
+		});
 	});
 
 	$("#yourFile").on("change", function() {
