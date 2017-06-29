@@ -14,20 +14,24 @@ If you want to compare HTML, please download codes and open HTMLComparison/compa
 **HTML**: 
 #### 1. Start
 Open the **HTMLComparison/compareHTML.html**, there is a panel.
-![Alt text](/images/panel.png)
+<!--![Alt text](/images/panel.png) -->
  
 #### 2. Origin URL/Path
 Input URL (like http://localhost/originTest.html) of the origin template you want to compare with.
     
 #### 3. Your URL/Path
-Input URL (like http://localhost/youTest.html) of your template.
+Input URL (like http://localhost/yourTest.html) of your template.
     
 #### 4. Position
 Position panel is used for adjust the position of your template.
 Sometimes, the structure of origin template is not enough exact, we need to adjust ***our template's position*** to make sure both of templates are in same position.
+
 + Top
+
 Adjust the space between top of the template and browser's top. 
+
 + Left
+
 Adjust the space between left of the template and browser's bottom. 
         
 #### 5. Your Template Toggle
@@ -38,22 +42,22 @@ To control your template show or hide.
 (1). Download "PDF_HTML_Comparison.crx" from the project.
  
 (2). Open Chrome and open Chrome Extensions Management as below image or type chrome://extensions/ in Chrome address bar.
-![Alt text](/images/steps_1.png)
+<!--![Alt text](/images/open_extension.png) -->
  
 (3). Drag the extension to Chrome Extensions Management window to install
-![Alt text](/images/drag_to_install.png)
-![Alt text](/images/comfirm_install.png)
+<!--![Alt text](/images/drag_to_install.png)
+![Alt text](/images/comfirm_install.png) -->
  
 (4). You could find the extension in toolbar and Chrome Extensions Page.
-![Alt text](/images/extension_in_list.png)
+<!--![Alt text](/images/extension_in_list.png) -->
  
     
 #### 2. Start to use
 Click the icon in toolbar to open the extension.
-![Alt text](/images/open_extension.png)
+<!--![Alt text](/images/open_extension.png) -->
  
 There is a panel for controlling files.
-![Alt text](/images/compare_pdf_panel.png)
+<!--![Alt text](/images/compare_pdf_panel.png) -->
  
 ##### 2.1. _Origin URL/Path_ and _Your URL/Path_
 Please click "Choose file" to select pdf files you want to compare
