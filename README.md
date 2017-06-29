@@ -72,4 +72,4 @@ Because our development pages maybe is different from UXD design, sometimes the 
  
 You could use this checkbox and input box to set your own PDF page number to solve this issue.
  
-##### 6. Use "Zoom" to adjust the scale of pdf
+##### 2.5. Use "Zoom" to adjust the scale of pdf
